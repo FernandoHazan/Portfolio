@@ -1,0 +1,241 @@
+.secao-apresentacao{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao-foto{
+    border-radius: 100%;
+    width: 150px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 100px -20px var(--glow-foto);
+    border: 3px solid var(--border);
+}
+
+.apresentacao-foto:hover{
+     transform: scale(1.05);
+     box-shadow: 0px 0px 100px 10px var(--glow-foto-on);
+}
+
+.apresentacao-nome{
+    color: var(--cor-texto);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.apresentacao-texto{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: clamp(20px, 17.86vw - 37.14px, 100px);
+    padding-right: clamp(20px, 17.86vw - 37.14px, 100px);
+    color: var(--cor-texto);
+    font-family: var(--fonte-secundaria);
+font-size: clamp(1.5rem, 5.88235vw + 0.3235rem, 3rem);
+    font-weight: 800;
+    text-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.3); 
+    background: linear-gradient(to right, #ffffff 60%, #999999 80%, #333333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.apresentacao-container-botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;  
+    backdrop-filter: blur(2px);
+    margin-top: 5px;
+}
+
+.apresentacao-botoes{
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    text-decoration: none;
+      color: var(--cor-texto);
+      padding: 13px 20px;
+      border-radius: 3px;
+      border: 2px solid var(--border);
+      font-size: 0.8rem;
+          transition: all 0.3s ease;
+          cursor: pointer;
+}
+
+
+.btn-curriculo{
+      background-color: var(--bg-botao);
+}
+
+    .btn-curriculo span{
+        padding-right: 5px;
+    }
+
+.btn-email{
+background-color: var(--bg-botao-on);
+height: 48px;
+}
+
+.apresentacao-botoes:hover{
+     transform: scale(0.89);
+  
+}
+
+.btn-email:hover{
+     background-color: var(--cor-botao-bg);
+}
+
+.btn-curriculo:hover{
+    background-color: var(--bg-botao-on);
+}
+
+.apresentacao-botoes:active{
+     transform: scale(0.89);
+     background-color: var(--bg-botao-active);
+                    transition: all 0.1s ease;
+}
+
+    #notificacao {
+      position: fixed;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: var(--bg-notificacao);
+      color: var(--cor-texto);
+      border: 2px solid var(--border);
+      padding: 13px 25px;
+      border-radius: 3px;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      z-index: 1000;
+      font-size: 1rem;
+      font-weight: 200;
+      white-space: nowrap;
+    }
+    
+    #notificacao.mostrar {
+      opacity: 1;
+    }
+
+.btn-curriculo-icon{
+    width: 18px;
+    vertical-align: sub;
+}
+
+@media (min-width: 768px){
+
+    .btn-email{
+height: 56px;
+}
+
+    .apresentacao-foto{
+    margin-top: 50px;
+    width: 200px;
+        box-shadow: 0px 0px 300px -20px rgba(255, 255, 255, 0.5);
+
+}
+.apresentacao-nome{
+    font-size: 0.9rem;
+}
+.apresentacao-texto{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: clamp(3rem, 5.40541vw + 0.5405rem, 4rem);
+
+}
+
+.apresentacao-botoes{
+      font-size: 0.8rem;
+            padding: 15px 40px;
+}
+
+.apresentacao-container-botoes {
+    gap: 10px; 
+}
+
+.apresentacao-botoes{
+    font-size: 0.9rem;
+}
+.btn-curriculo-icon{
+    width: 22px;
+}
+}
+
+@media (min-width: 1024px){
+
+    .apresentacao-foto{
+    width: 230px;
+}
+.apresentacao-nome{
+    font-size: 1rem;
+}
+.apresentacao-texto{
+    padding-left: clamp(100px, 14.42vw - 47.69px, 160px);
+    padding-right: clamp(100px, 14.42vw - 47.69px, 160px);
+    font-size: clamp(4rem, 3.84615vw + 1.5385rem, 5rem);
+
+}
+.apresentacao-botoes{
+      font-size: 1rem;
+      padding: 15px 50px;
+}
+.apresentacao-container-botoes {
+    gap: 10px;  
+}
+
+.btn-curriculo-icon{
+    width: 22px;
+
+}
+}
+
+
+@media (min-width: 1440px){
+
+        .btn-email{
+height: 62px;
+}
+        .apresentacao-foto{
+    width: 250px;
+}
+.apresentacao-texto{
+    padding-left: clamp(160px, 30.36vw - 277.14px, 500px);
+    padding-right: clamp(160px, 30.36vw - 277.14px, 500px);
+    font-size: 5rem;
+
+}
+.apresentacao-botoes{
+      font-size: 1rem;
+      padding: 18px 55px;
+}
+
+    #notificacao {
+      font-size: 1.1rem;
+    }
+.btn-curriculo-icon{
+    width: 22px;
+
+}
+}
+
+@media (min-width: 2560px){
+    .apresentacao-texto{
+    padding-left: 500px;
+    padding-right: 500px;
+    }
+.apresentacao-botoes{
+      font-size: 1rem;
+      padding: 18px 55px;
+}
+.btn-curriculo-icon{
+    width: 22px;
+
+}
+}

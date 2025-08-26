@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --cor-vidro-bg: rgba(255, 255, 255, 0.06);
+    --cor-vidro-bg-escuro: rgba(255, 255, 255, 0.09);
+    --cor-vidro-borda: rgba(255, 255, 255, 0.12);
+    --cor-hover-link: rgba(255, 255, 255, 0.61);
+    --cor-botao-bg:rgb(150 150 150 / 6%);
+    --cor-botao--hover-bg: rgb(17 17 17 / 43%);
+    --cor-habilidades-bg: rgb(255 255 255 / 1%);
+    --cor-projetos-bg: rgb(35 35 35 / 80%);
+    
+}
+
+:root{
+--bg-site: rgb(14 14 14);
+--pontos-do-fundo: #2c2c2c;
+--cor-texto: #e5e5e5;
+--bg-header: rgb(30 30 30 / 50%);
+--border-header: rgb(55 55 55);
+--bg-header-on: rgb(94 94 94 / 10%);
+--glow-foto: rgba(173, 173, 173, 0.1);
+--glow-foto-on: rgba(173, 173, 173, 0.3);
+--bg-botao: rgb(150 150 150 / 6%);
+--border: rgba(255, 255, 255, 0.06);
+--bg-botao-on: transparent;
+--bg-botao-active: rgba(0, 0, 0, 0.43);
+--bg-secao: rgb(29 29 29 / 25%);
+--bg-secao-projetos: rgb(29 29 29 / 50%);
+--glow-projeto:rgba(173, 173, 173, 0.5);
+--bg-notificacao: rgb(31, 30, 30);
+
+--fonte-principal: "Montserrat", sans-serif;
+--fonte-secundaria: "DM Sans", sans-serif;
+}

@@ -1,0 +1,24 @@
+@import url("css/variaveis.css");
+@import url("css/header.css");
+@import url("css/apresentacao.css");
+@import url("css/habilidades.css");
+@import url("css/projetos.css");
+@import url("css/contato.css");
+@import url("css/rodape.css");
+
+
+
+
+html, body, main {
+    width: 100%;
+    min-height: 100vh;
+    font-family: var(--fonte-principal);
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-site); 
+  background-image: radial-gradient(var(--pontos-do-fundo) 1px, transparent 1px); 
+  background-size: 50px 50px; 
+}
+

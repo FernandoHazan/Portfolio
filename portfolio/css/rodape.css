@@ -1,0 +1,27 @@
+.secao-rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.rodape-texto{
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: var(--cor-texto);
+    opacity: 0.8;
+}
+
+@media (min-width: 768px){
+    .rodape-texto{
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 1024px){
+.secao-rodape{
+    margin-top: 50px;
+}
+}

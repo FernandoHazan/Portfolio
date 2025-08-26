@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pórtfolio - Fernando Hazan</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#"><h1 class="cabecalho-nome">Fernando Hazan</h1></a>
+        
+        <nav class="cabecalho-navegacao ">
+            <a href="#sobre" class="navegacao-link">Sobre</a>
+            <a href="#projetos" class="navegacao-link">Projetos</a>
+            <a href="#habilidades" class="navegacao-link">Habilidades</a>
+            <a href="#contato" class="navegacao-link">Contato</a>
+        </nav>
+        <img src="./assets/icon/menu.png" alt="Botão menu hamburguer" class="navegacao-menu-hamburguer-icone">
+    </header>   
+        <nav class="cabecalho-navegacao mobile">
+            <a href="#sobre" class="navegacao-link">Sobre</a>
+            <a href="#projetos" class="navegacao-link">Projetos</a>
+            <a href="#habilidades" class="navegacao-link">Habilidades</a>
+            <a href="#contato" class="navegacao-link">Contato</a>
+        </nav>
+    <main>
+
+<section class="secao-apresentacao" id="sobre">
+    <img src="./assets/img/foto.jfif" alt="Foto de um homem branco de cabelo preto e olhos pretos" class="apresentacao-foto">
+    <p class="apresentacao-nome">Oi, sou o Fernando 👋</p>
+    <h2 class="apresentacao-texto" data-text="Front-end, Back-end, Fullstack devevloper">Front-end, Back-end, Fullstack devevloper</h2>
+    <div class="apresentacao-container-botoes">
+        <a href="./assets/arquivos/CV.pdf" download target="_blank">
+
+            <button class="apresentacao-botoes btn-curriculo"><span>Baixar currículo</span><img src="./assets/icon/download-de-arquivo.png" alt="Icone de download de arquivo" class="btn-curriculo-icon"></button>
+        </a>
+        <button class="apresentacao-botoes btn-email" onclick="copiarTexto()">Copiar Email</button>
+        
+    </div>
+</section>
+
+<section class="secao-habilidades" id="habilidades">
+    
+    <div class="container-habilidade">
+
+
+            <img src="./assets/icon/habilidades/react.png" alt="Icone do react" class="habilidade-icone">
+
+        <h3 class="habilidade-nome">React</h3>
+    </div>
+
+    <div class="container-habilidade">
+    <img src="./assets/icon/habilidades/css-3.png" alt="" class="habilidade-icone">
+        <h3 class="habilidade-nome">CSS</h3>
+    </div>
+
+    <div class="container-habilidade">
+        <img src="./assets/icon/habilidades/figma.png" alt="Icone do react" class="habilidade-icone">
+        <h3 class="habilidade-nome">Figma</h3>
+    </div>
+
+    <div class="container-habilidade">
+    <img src="./assets/icon/habilidades/hmtl-5.png" alt="" class="habilidade-icone">
+        <h3 class="habilidade-nome">HTML</h3>
+    </div>
+
+    <div class="container-habilidade">
+        <img src="./assets/icon/habilidades/java.png" alt="Icone do react" class="habilidade-icone">
+        <h3 class="habilidade-nome">Java</h3>
+    </div>
+    
+    <div class="container-habilidade">
+        <img src="./assets/icon/habilidades/js.png" alt="" class="habilidade-icone">
+        <h3 class="habilidade-nome">JavaScript</h3>
+    </div>
+    
+    
+</section>
+
+<section class="secao-projetos" id="projetos">
+    <h2 class="secao-projetos-titulos">PROJETOS</h2>
+    
+    <div class="container-cads">
+
+         <div class="container-projeto">
+            <a class="container-projeto-img" href="https://gustavo-nunes.vercel.app/" target="_blank">
+                <img src="assets/projetos/Capturar 1.PNG" alt="" class="projeto-img">
+            </a>
+            <div class="container-projeto-infos">
+                <h3 class="infos-titlo">Portfólio p/ Designer Gráfico</h3>
+                <p class="infos-descricao">Desenvolvi um portfólio online para um cliente da área de design gráfico e edição de vídeo, com layout moderno e responsivo. O projeto exigiu estudo de novas soluções técnicas e entregou uma vitrine clara e atrativa para apresentar seus trabalhos.</p>
+            </div>
+            <div class="container-projeto-links">
+                <a href="https://gustavo-nunes.vercel.app/" class="projeto-link-site" target="_blank">Ver site</a>
+                <a href="https://github.com/FernandoHazan/portfolio-designer-grafico"  target="_blank"><img src="./assets/icon/github.png" alt="" class="projeto-link-github"></a>
+            </div>
+        </div>
+
+        <div class="container-projeto">
+            <a class="container-projeto-img" href="https://adivinhe-os-4-digitos.vercel.app/" target="_blank">
+                <img src="assets/projetos/Capturar 2.PNG" alt="" class="projeto-img">
+            </a>
+            <div class="container-projeto-infos">
+                <h3 class="infos-titlo">Quem sou eu</h3>
+                <p class="infos-descricao">Meu primeiro web site, jogo que vi na internet e adptei pra ser jogado online, voce deve tentar adivinhar uma sequência de 4 números distintos que foram sorteados pelo sistema, você receberá feedback sobre quantos números acertou, e quantos estão na posição correta</p>
+            </div>
+            <div class="container-projeto-links">
+                <a href="https://adivinhe-os-4-digitos.vercel.app/" class="projeto-link-site" target="_blank">Ver site</a>
+                <a href="https://github.com/FernandoHazan/Adivinhe-os-4-digitos"  target="_blank"><img src="./assets/icon/github.png" alt="" class="projeto-link-github"></a>
+            </div>
+        </div>
+        
+        <div class="container-projeto">
+            <a class="container-projeto-img" href="https://paraiso-tur.vercel.app/" target="_blank">
+            <img src="assets/projetos/Capturar.PNG" alt="" class="projeto-img">
+        </a>
+        <div class="container-projeto-infos">
+            <h3 class="infos-titlo">ParaisoTur</h3>
+            <p class="infos-descricao">Web site feito para uma empresa de turismo, mostra informações da empresa e facilita o cliente entrar em contao</p>
+        </div>
+        <div class="container-projeto-links">
+            <a href="https://paraiso-tur.vercel.app/" class="projeto-link-site" target="_blank">Ver site</a>
+            <a href="https://github.com/FernandoHazan/Paraiso_Tur/tree/main" target="_blank" ><img src="./assets/icon/github.png" alt="" class="projeto-link-github"></a>
+        </div>
+    </div>
+
+    <div class="container-projeto">
+        <a class="container-projeto-img" href="https://quem-sou-eu-ten.vercel.app/" target="_blank">
+            <img src="assets/projetos/Capturar 3.PNG" alt="" class="projeto-img">
+        </a>
+        <div class="container-projeto-infos">
+            <h3 class="infos-titlo">Quem sou eu</h3>
+            <p class="infos-descricao">Um trabalho fisico de faculdade refeito para uma versão web, é um quiz sobre historia, onde o jogar pode receber 5 dicas sobre oque deve ser adivinhado e também pode saber quantas letras a palavra tem e quais são a primeira e ultima letra</p>
+        </div>
+        <div class="container-projeto-links">
+            <a href="https://quem-sou-eu-ten.vercel.app/" class="projeto-link-site" target="_blank">Ver site</a>
+            <a href="https://github.com/FernandoHazan/Quem-sou-eu" target="_blank"><img src="./assets/icon/github.png" alt="" class="projeto-link-github"></a>
+        </div>
+    </div>
+
+    <div class="container-projeto">
+        <a class="container-projeto-img" href="https://calculadora-de-combustivel-alpha.vercel.app/" target="_blank">
+            <img src="assets/projetos/Capturar 4.PNG" alt="" class="projeto-img">
+        </a>
+        <div class="container-projeto-infos">
+            <h3 class="infos-titlo">Calculadora de combustivel</h3>
+            <p class="infos-descricao">Web site desenvolvido para auxiliar no orçamento de fretes, nele voce coloca os dados da viagem e ele calcula pra voce, e essa calculadora possui sistema de historico.</p>
+        </div>
+        <div class="container-projeto-links">
+            <a href="https://calculadora-de-combustivel-alpha.vercel.app/" class="projeto-link-site" target="_blank">Ver site</a>
+            <a href="https://github.com/FernandoHazan/Calculadora-de-Combustivel" target="_blank" ><img src="./assets/icon/github.png" alt="" class="projeto-link-github"></a>
+        </div>
+    </div>
+
+    
+</div>
+
+</section>
+
+<section class="secao-contato" id="contato">
+
+<h2 class="secao-contato-titulo">Contatos</h2>
+
+
+    <div class="container-contatos">
+
+        <a class="container-contato" onclick="copiarTexto()"">
+            <img src="./assets/icon/e-mail.png" alt="" class="contato-img">
+            <h2 class="contato-nome">E-mail</h2>
+        </a>
+        <a class="container-contato" href="https://www.linkedin.com/in/fernando-hazan-vieira-76b167261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+            <img src="./assets/icon/linkedin.png" alt="" class="contato-img">
+            <h2 class="contato-nome">Linkedin</h2>
+        </a>
+
+        <a class="container-contato" href="https://wa.me/5548984724939" target="_blank">
+            <img src="./assets/icon/telefone.png" alt="" class="contato-img" >
+            <h2 class="contato-nome">Telefone</h2>
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="secao-rodape">
+    <p class="rodape-texto">© 2025 Fernando Hazan Vieira — Todos os direitos reservados.</p>
+</footer>
+
+
+<div id="notificacao">Email copiado</div>
+    </main>
+
+    <script>
+
+//
+
+      const botaoNavegacao = document.querySelector(".navegacao-menu-hamburguer-icone");
+      const menu = document.querySelector(".mobile");
+
+      botaoNavegacao.addEventListener("click", () => {
+        menu.classList.toggle("abrir");
+      });
+
+//      
+
+//
+
+      function copiarTexto() {
+      const textoParaCopiar = "fernandohvk4@gmail.com"; 
+      navigator.clipboard.writeText(textoParaCopiar).then(() => {
+        const notificacao = document.getElementById("notificacao");
+        notificacao.classList.add("mostrar");
+        setTimeout(() => {
+          notificacao.classList.remove("mostrar");
+        }, 3000); 
+      }).catch(err => {
+        console.error("Erro ao copiar texto: ", err);
+      });
+    }
+
+//
+
+
+    </script>
+</body>
+</html>
